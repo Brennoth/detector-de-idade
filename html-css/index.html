@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--<header>
+        <h1>detector de idade</h1>
+    </header>-->
+
+    <main>
+        <section>
+            <div class="container">
+                <h1>DETECTOR DE IDADE</h1>
+
+                <div class="input-ano">
+                    <p>Ano de nascimento: <input type="number" id="ano"> </p>
+                </div>
+
+                <div class="sex">
+                    <p>sexo: <input type="radio" name="sex" id="masc" checked>
+                        <label for="masc">masculino</label>
+                        <input type="radio" name="sex" id="femi">
+                        <label for="femi"> feminino</label>
+                    </p>
+                </div>
+
+                <input type="button" id="verificar" onclick="verificar()" value="verificar">
+
+                <div id="res"></div>
+                <div id="fot"></div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>
