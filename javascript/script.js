@@ -16,7 +16,7 @@ var res = document.getElementById('res')
 
 var fano = Number(ano.value)
 
-    if(fano == 0 || fano == '' || fano > agora || fano <= -1 || fano >= 1,1){
+    if(fano == 0 || fano == '' || fano > agora || fano <= -1){
         window.alert("ERRO, verefique os dados e tente novamente")
     }else{
         var idade = agora - fano
